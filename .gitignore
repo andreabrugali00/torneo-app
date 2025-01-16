@@ -1,0 +1,21 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs
+*.log
+/logs
+
+# Vue.js
+/dist/
+/coverage/
+*.local
+.env.local
+.env.*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
