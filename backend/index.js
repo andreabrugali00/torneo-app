@@ -14,3 +14,8 @@ app.get('/', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server in esecuzione su http://localhost:${PORT}`);
 });
+const cors = require('cors');
+app.use(cors({
+  origin: 'http://localhost:8081', // URL del frontend
+  credentials: true,
+}));
