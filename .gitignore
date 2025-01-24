@@ -9,13 +9,6 @@ logs
 *.log
 /logs
 
-# Vue.js
-/dist/
-/coverage/
-*.local
-.env.local
-.env.*
-
 # Sistema operativo
 .DS_Store
 Thumbs.db
