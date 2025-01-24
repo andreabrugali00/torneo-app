@@ -16,6 +16,6 @@ app.listen(PORT, () => {
 });
 const cors = require('cors');
 app.use(cors({
-  origin: 'http://localhost:8081', // URL del frontend
+  origin: 'http://localhost:5173', // Porta predefinita di Vite
   credentials: true,
 }));
