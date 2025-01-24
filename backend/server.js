@@ -6,7 +6,7 @@ dotenv.config();
 
 const app = express();
 app.use(cors({
-    origin: 'http://localhost:8081', // Permetti le richieste dal frontend
+    origin: 'http://localhost:5173', // Permetti le richieste dal frontend
     methods: 'GET,POST,PUT,DELETE', // Specifica i metodi consentiti
     credentials: true, // Se necessario per le credenziali (cookie, auth headers, ecc.)
 }));
